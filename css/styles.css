@@ -1,0 +1,43 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main Styles */
+
+header {
+  text-align: center;
+}
+
+/* Nav Styles */
+
+.main-nav {
+  text-align: center;
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+}
+.nav li {
+  background-color: white;
+  margin: .5em 0;
+  padding: .75em 0;
+}
+
+.nav a:link, .nav a:visited {
+  color: black;
+  background-color: white;
+  padding: .5em 2em;
+}
