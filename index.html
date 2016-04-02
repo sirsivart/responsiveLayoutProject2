@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -14,144 +15,149 @@
     </header>
     
     <div class="main-nav">
-      <ul class="nav">
+      <ul class="nav clearfix">
         <li id="Home"><a href="#home"> Home </a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     
-    <div class="background">
-      <img src="images/responsive-layout-profile.png"
+    <div class="profile clearfix">
+      <img class="profile-photo" src="images/responsive-layout-profile.png">
       <p class="background-text"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
   
     <div class="portfolio" id="portfolio">
-      <h2>Portfolio</h2>
-        <div class="portfolio-gallery">
-          <ul>
-            <li>
-              <a href="images/portfolio-1.png">
-                <img class="portfolio-image" src="images/portfolio-1.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-2.png">
-                <img class="portfolio-image" src="images/portfolio-2.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-3.png">
-                <img class="portfolio-image" src="images/portfolio-3.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-4.png">
-                <img class="portfolio-image" src="images/portfolio-4.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-5.png">
-                <img class="portfolio-image" src="images/portfolio-5.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-6.png">
-                <img class="portfolio-image" src="images/portfolio-6.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-7.png">
-                <img class="portfolio-image" src="images/portfolio-7.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-8.png">
-                <img class="portfolio-image" src="images/portfolio-8.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-9.png">
-                <img class="portfolio-image" src="images/portfolio-9.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-10.png">
-                <img class="portfolio-image" src="images/portfolio-10.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-11.png">
-                <img class="portfolio-image" src="images/portfolio-11.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-12.png">
-                <img class="portfolio-image" src="images/portfolio-12.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-13.png">
-                <img class="portfolio-image" src="images/portfolio-13.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-14.png">
-                <img class="portfolio-image" src="images/portfolio-14.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-            <li>
-              <a href="images/portfolio-15.png">
-                <img class="portfolio-image" src="images/portfolio-15.png" alt="">
-                <h3 class="portfolio-title"> Marketing Page</h3>
-                <p class="portfolio-caption"> Floating column design.</p>
-              </a>
-            </li>
-          </ul>
-        </div>
+      <h4 class="portfolio-heading">Portfolio</h2>
+      <div class="portfolio-gallery">
+        <ul class="clearfix">
+          <li>
+            <a href="images/portfolio-1.png">
+              <img class="portfolio-image" src="images/portfolio-1.png" alt="">
+              <h3 class="portfolio-title"> Marketing Page</h3>
+              <p class="portfolio-caption"> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-2.png">
+              <img class="portfolio-image" src="images/portfolio-2.png" alt="">
+              <h3 class="portfolio-title"> Search Page</h3>
+              <p class="portfolio-caption"> This project searches through a specific database to find information that the user is trying to lookup.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-3.png">
+              <img class="portfolio-image" src="images/portfolio-3.png" alt="">
+              <h3 class="portfolio-title"> Travel App</h3>
+              <p class="portfolio-caption"> This project compares travel times based on different transportation methods and tells you the best one.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-4.png">
+              <img class="portfolio-image" src="images/portfolio-4.png" alt="">
+              <h3 class="portfolio-title"> Map of Favorite Spots</h3>
+              <p class="portfolio-caption"> This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-5.png">
+              <img class="portfolio-image" src="images/portfolio-5.png" alt="">
+              <h3 class="portfolio-title"> Photo Gallery</h3>
+              <p class="portfolio-caption"> This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-6.png">
+              <img class="portfolio-image" src="images/portfolio-6.png" alt="">
+              <h3 class="portfolio-title"> Calculator</h3>
+              <p class="portfolio-caption"> Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-7.png">
+              <img class="portfolio-image" src="images/portfolio-7.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-8.png">
+              <img class="portfolio-image" src="images/portfolio-8.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-9.png">
+              <img class="portfolio-image" src="images/portfolio-9.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-10.png">
+              <img class="portfolio-image" src="images/portfolio-10.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-11.png">
+              <img class="portfolio-image" src="images/portfolio-11.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-12.png">
+              <img class="portfolio-image" src="images/portfolio-12.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-13.png">
+              <img class="portfolio-image" src="images/portfolio-13.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-14.png">
+              <img class="portfolio-image" src="images/portfolio-14.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+          <li>
+            <a href="images/portfolio-15.png">
+              <img class="portfolio-image" src="images/portfolio-15.png" alt="">
+              <h3 class="portfolio-title"> Bacon Pizza</h3>
+              <p class="portfolio-caption"> Ex consectetur duis chuck reprehenderit spare ribs. Andouille non tail cupidatat fugiat kevin.</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>  
     
     <div id="contact">
-      <h3>Contact</h3>
+      <h4>Contact</h4>
       <p>If you're interested in chatting or want moe information about what I've been working on, I'd love to hear from you!</p>
       <ul>
         <li><p>Phone <a href="tel:555-555-1212">+1 (111)555-1234</a></p></li>
-        <li>Email <a href="https://www.teamtreehouse.com">email@yoursite.com</a> </li>
+        <li><p> Email <a href="https://www.teamtreehouse.com">email@yoursite.com</a> </p></li>
       </ul>
     </div>
   
-    <footer>
-      <ul>
-        <li>Student name</li>
-        <li><a href="#Home">BACK TO TOP</a></li>
+    <footer class="clearfix">
+      <ul class="footer-li clearfix">
+        <li class="footer-name">Student name</li>
+        <li class="back-to-top"><a href="#Home">BACK TO TOP</a></li>
+      </ul>
+      <ul class="footer-nav clearfix">
+        <li><a href="#Home"> Home </a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </footer>
   </body>
